@@ -27,7 +27,7 @@ class Carnivore extends Animal {
       return;
     }
 
-    if (!(unknown instanceof Carnivore)) {
+    if (unknown instanceof Herbivore) {
       unknown.health -= 50;
     }
 
